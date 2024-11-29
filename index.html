@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calc">
+            <p>What are the parts required for this page?   </p>
+            <form method="post" href="#">
+                <div id = "first">
+                    <textarea class="operand" rows="10" cols="48"></textarea>
+                </div>
+                
+                <button type="submit" class="submit">Ans</button>
+            </form>
+            <h3 class="res"></h3>
+            <div class="grid">
+                <button class="box" onclick="appendValue('1')">1</button>
+                <button class="box" onclick="appendValue('2')">2</button>
+                <button class="box" onclick="appendValue('3')">3</button>
+                <button class="box" onclick="appendValue('+')">+</button>
+                <button class="box" onclick="appendValue('4')">4</button>
+                <button class="box" onclick="appendValue('5')">5</button>
+                <button class="box" onclick="appendValue('6')">6</button>
+                <button class="box" onclick="appendValue('-')">-</button>
+                <button class="box" onclick="appendValue('7')">7</button>
+                <button class="box" onclick="appendValue('8')">8</button>
+                <button class="box" onclick="appendValue('9')">9</button>
+                <button class="box" onclick="appendValue('*')">*</button>
+                <button class="box" onclick="appendValue('0')">0</button>
+                <button class="box" onclick="appendValue('.')">.</button>
+                <button class="box" onclick="clearDisplay()">&lt;-</button>
+                <button class="box" onclick="calculate()">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <!-- Part 1 -> CTF_{f1n1sh_ -->
+    </body>
+</html>

@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+button{
+    border: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+.calc{
+    margin: auto;
+    height: 60%;
+    width: 30%;
+    background-color: beige;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#first{
+    height: 170;
+    max-width: 90%;
+    display: flex;
+}
+/* Part 3 -> c0m3_last} */
+form{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.grid{
+    height: 55%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.grid .box{
+    outline: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
+.submit{
+    padding: 8px 30px;
+    border: none;
+    background-color: white;
+}
